@@ -50,6 +50,10 @@ OS, as a few examples.  Even Tails doesn't show the GPG instructions anymore in
 2022.  GrapheneOS entirely forgoes GPG in its installation process without any
 loss of security.
 
+## Credit
+
+Credit goes to Jordan Selanders/ProfessorChill for creating this AUR package.
+
 ## License
 
 This `PKGBUILD` is licensed under the GPLv3 license.  (I will remove this
