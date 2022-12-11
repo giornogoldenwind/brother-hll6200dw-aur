@@ -9,3 +9,6 @@ Originally, I wanted to adopt the package `brother-hll6200dw` on the
 [AUR](https://aur.archlinux.org/packages/brother-hll6200dw), but I abandoned
 this effort after not being able to figure out how to make the existing patch
 file function properly.
+
+You're more than welcome to try to update the existing package yourself, or
+suggest ideas on how to make it work.
