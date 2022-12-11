@@ -28,11 +28,13 @@ packages.  This seems much easier to write the `PKGBUILD`, but not as convenient
 as having a single AUR package from the RPM.  However, on the other hand, the
 RPM needs to be carefully managed with a patch file, since both the LPR and and
 CUPS drivers need to be installed simultaneously for the AUR package to function
-properly.
+properly.  (Yet somehow there are plently of counter examples to the latter?)
 
 Due to this, I have stopped trying to make the RPM package work.  Instead, I
 will try to make the DEB versions of the drivers work, since that approach
 appears much easier for a beginning AUR package contributor.
+
+### 
 
 ## How to find the exact download links
 
@@ -92,6 +94,8 @@ case for Mullvad VPN, for those **who need a VPN (and not anonymity)** and Qubes
 OS, as a few examples.  Even Tails doesn't show the GPG instructions anymore in
 2022.  GrapheneOS entirely forgoes GPG in its installation process without any
 loss of security.
+
+But alas, there are no upstream Brother GPG signing keys or even checksums.
 
 ## Credit
 
