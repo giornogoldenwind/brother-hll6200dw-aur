@@ -30,6 +30,10 @@ RPM needs to be carefully managed with a patch file, since both the LPR and and
 CUPS drivers need to be installed simultaneously for the AUR package to function
 properly.
 
+Due to this, I have stopped trying to make the RPM package work.  Instead, I
+will try to make the DEB versions of the drivers work, since that approach
+appears much easier for a beginning AUR package contributor.
+
 ## Improvements
 
 I added the proprietary Brother license as `license-custom-brother.txt` for the
