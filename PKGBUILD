@@ -1,7 +1,7 @@
 # Maintainer: giornogoldenwind <114269150+giornogoldenwind at users.noreply.github.com>
 # Contributor: Jordan Selanders <jordan.selanders@firstoncolour.com>
 pkgname="brother-hll6200dw"
-pkgver="3.5.1"
+pkgver="3.5.1_1"
 pkgrel=1
 pkgdesc="Brother HL-L6200DW CUPS driver"
 arch=('i686' 'x86_64')
