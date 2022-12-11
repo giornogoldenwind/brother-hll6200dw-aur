@@ -1,4 +1,4 @@
-# DEB version
+# Note for DEB version
 
 This is the DEB version.
 
