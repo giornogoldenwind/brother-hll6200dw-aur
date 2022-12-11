@@ -34,6 +34,33 @@ Due to this, I have stopped trying to make the RPM package work.  Instead, I
 will try to make the DEB versions of the drivers work, since that approach
 appears much easier for a beginning AUR package contributor.
 
+## How to find the exact download links
+
+1. This is the download preparation [page](https://support.brother.com/g/b/downloadend.aspx?c=us&lang=en&prod=hll6200dw_us_as&os=128&dlid=dlf102429_000&flang=4&type3=561)
+   for the CUPS wrapper, before downloading.
+2. This is the download landing page after clicking to agree with the EULA:
+   ```
+   https://support.brother.com/g/b/downloadhowto.aspx?c=us&lang=en&prod=hll6200dw_us_as&os=128&dlid=dlf102429_000&flang=4&type3=561
+   ```
+   (Exit out of the "Save as..." prompt, if it appears.)
+3. Take `dlf102429` from the download ID `dlid=` value (i.e., `dlid=dlf102429`)
+   with the archive name of `hll6200dwcupswrapper-3.5.1-1.i386` to get the download
+   link:
+   ```
+   https://download.brother.com/welcome/dlf102429/hll6200dwcupswrapper-3.5.1-1.i386.deb
+   ```
+
+(The DEB archive was chosen here, though the same applies if you choose RPM.)
+
+The same method applies to the LPR driver, without loss of generality.
+
+This method is handy, in case the `dlid=` value ever changes between CUPS
+wrapper/LPR driver versions.
+
+(I wrote this all out, since the ArchWiki article didn't spell out how to obtain
+the exact download URL for each archive, respectively, and I wanted to look this
+up if this happens again the next time I update the AUR packages.)
+
 ## Improvements
 
 I added the proprietary Brother license as `license-custom-brother.txt` for the
