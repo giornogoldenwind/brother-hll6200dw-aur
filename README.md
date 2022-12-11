@@ -68,7 +68,15 @@ loss of security.
 
 ## Credit
 
-Credit goes to Jordan Selanders/ProfessorChill for creating this AUR package.
+Credit goes to Jordan Selanders/ProfessorChill for making `brother-hll6200dw` on
+the [AUR](https://aur.archlinux.org/packages/brother-hll6200dw) and inspiring me
+to make an AUR package.
+
+Also thanks to the ArchWiki authors who wrote up how to package Brother printer
+drivers for the AUR - there may not be a catch-all Brother driver (like in
+Debian), for Arch Linux, though at the least installing each printer is probably
+more manageable and better than installing a multiiprinter driver package that
+includes many other printers you will never use.
 
 ## License
 
