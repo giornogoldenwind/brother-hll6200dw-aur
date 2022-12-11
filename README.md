@@ -18,6 +18,18 @@ and `.deb`/[DEB](https://en.wikipedia.org/wiki/Deb_%28file_format%29).  Looking
 at a handful of Brother printer drivers on the AUR indicates that the preferred
 archive format is RPM.
 
+### Clarification
+
+The ArchWiki has [info](https://wiki.archlinux.org/title/Packaging_Brother_printer_drivers)
+on packaging Brother printer drivers.  There seems to be a split in approach
+between the DEB and RPM drivers.  On one hand, the DEB drivers can be packaged
+separately, where the `*-lpr` driver and `*-cups` driver are 2 separate
+packages.  This seems much easier to write the `PKGBUILD`, but not as convenient
+as having a single AUR package from the RPM.  However, on the other hand, the
+RPM needs to be carefully managed with a patch file, since both the LPR and and
+CUPS drivers need to be installed simultaneously for the AUR package to function
+properly.
+
 ## Improvements
 
 I added the proprietary Brother license as `license-custom-brother.txt` for the
