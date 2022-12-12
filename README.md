@@ -1,4 +1,21 @@
-# brother-hll6200dw-aur
+# brother-hll6200dw-aur is **DEFUNCT**
+
+I discovered that Arch Linux works pretty well with the Brother HL-L2600DW(T)
+essentially "driverless", thanks to CUPS and generic drivers.
+
+Folks, let this be a lesson to everyone when it comes to printing on Linux: if
+you can print fine without specific printer drivers, then keep going driverless.
+I was trying to be smarter than I needed to be.  Many people much smarter than
+me (and more importantly are basically getting paid to) are involved in CUPS
+development.
+
+I got this idea after reading a [thread](https://bbs.archlinux.org/viewtopic.php?id=276550)
+on the Arch Linux forums from May 2022.
+
+I was never able to make my `PKGBUILD`s to work, but I'll still put them up for
+record keeping, before making this repo read-only.
+
+## Below is the original README
 
 Here are some notes I have for myself while adopting a package on the AUR that
 was very inactive.
