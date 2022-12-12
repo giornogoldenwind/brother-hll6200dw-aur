@@ -1,0 +1,15 @@
+pkgbase = brother-hll6200dw-cups-bin
+	pkgdesc = CUPS wrapper for Brother HL-L6200DW(T) printer (from DEB)
+	pkgver = 3.5.1
+	pkgrel = 1
+	url = https://support.brother.com/g/b/downloadlist.aspx?c=us&lang=en&prod=hll6200dw_us_as&os=128
+	arch = i686
+	arch = x86_64
+	license = custom:EULA
+	license = GPL2
+	optdepends = brother-hll6200dw-lpr-bin
+	conflicts = brother-hll6200dw
+	source = https://download.brother.com/welcome/dlf102429/hll6200dwcupswrapper-3.5.1-1.i386.deb
+	b2sums = c18a0821e511c2fcae5567fdc98b64df7235136cd92dba925a6c51b9ac3712100e2ef440ce9798196858d06c71308c1c3e62987f3c15959265fdd190b300b909
+
+pkgname = brother-hll6200dw-cups-bin
