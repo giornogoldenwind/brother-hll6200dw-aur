@@ -1,0 +1,14 @@
+pkgbase = brother-hll6200dw-lpr-bin
+	pkgdesc = LPR driver for Brother HL-L6200DW(T) printer (from DEB)
+	pkgver = 3.5.1
+	pkgrel = 1
+	url = https://support.brother.com/g/b/downloadlist.aspx?c=us&lang=en&prod=hll6200dw_us_as&os=128
+	arch = i686
+	arch = x86_64
+	license = custom:EULA
+	optdepends = brother-hll6200dw-cups-bin
+	conflicts = brother-hll6200dw
+	source = https://download.brother.com/welcome/dlf102428/hll6200dwlpr-3.5.1-1.i386.deb
+	b2sums = f91442dd51f9cee1bda65576eecce648c3bf92b3a4053f9a244dec90d31e6dd03bb6175107c80cdf7f91fbf372f3831dae0f8e67a065a6d3ec34ea80c85ab63c
+
+pkgname = brother-hll6200dw-lpr-bin
